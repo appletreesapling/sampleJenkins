@@ -1,0 +1,2 @@
+# sampleJenkins
+example Jenkinsfile job
