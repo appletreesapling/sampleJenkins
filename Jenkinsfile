@@ -3,7 +3,7 @@ pipeline {
   agent {
     docker{ image 'node:10.5-stretch' }
 
-  }
+
     stage('pull code') {
        // pull the code to the workspace
 
@@ -40,7 +40,7 @@ pipeline {
        echo "Running the cleanup stage"
      }
 
-
+  }
 
 }
 
